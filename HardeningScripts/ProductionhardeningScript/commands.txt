@@ -1,0 +1,12 @@
+# Create a new shell script file named "script.sh"
+# Make the script executable by changing its permissions
+# Open the script file in the VI text editor for editing
+touch script.sh; chmod +x script.sh; vi script.sh
+
+# Execute the shell script named "script.sh"
+sh script.sh
+
+
+
+
+
