@@ -9,7 +9,7 @@ do {
 
 # Define the username and password
 $UserName = Read-Host "Enter your username"
-$YourPassword = Read-Host "Enter your password"
+$YourPassword = Read-Host "Enter your password" -AsSecureString
 
 # Prompt for the new ESXi root password
 $cred = Get-Credential -UserName "root" -Message "Enter the new ESXi root password"
